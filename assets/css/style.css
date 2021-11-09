@@ -11,7 +11,7 @@ body {
 
 /* Header*/
 header {
-    padding: 10px;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -26,7 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -55,6 +55,7 @@ p {
 /* Hero*/
 .hero {
     height: 800px;
+    width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -99,8 +100,8 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    background-color: #2589bd;
-    
+    height: 100%;
+    background-color: #2589bd; 
 }
 
 .benefit-lead {
